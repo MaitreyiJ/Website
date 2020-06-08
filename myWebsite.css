@@ -1,0 +1,65 @@
+#content{
+    text-align: center;
+    padding-top:25%;
+    text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px  rgba (0,0,0,0.1),
+                0px 18px 23px  rgba (0,0,0,0.1);
+    
+}
+body{
+    background-image: url('EEImage.jpg'), url('CEImage.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50% 80%;
+    
+    background-position: left top, right top;
+}
+   
+    
+
+    
+    
+}
+.thumbnail{
+    border:none;
+}
+h1{
+    color:white;
+    font-weight: 700;
+    font-size: 80px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    
+  
+
+}
+h3{
+    color:white;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    
+}
+
+html{
+    height: 100%;
+}
+/* hr{
+    width:400px;
+    border-top:  1px solid #f8f8f8;
+    border-top: 1px solid rgba(0,0,0,0.2);
+
+} */
+.navbar-default{
+    color:black;
+    background-color:#B5B3CA;
+    border:transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white; /*Change active text color here*/
+    font-family: 'Playfair Display', serif;
+    font-size:20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color:white;
+    color:black:;
+}
